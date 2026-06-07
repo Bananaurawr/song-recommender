@@ -1,0 +1,8 @@
+/.venv
+.env
+
+# Ignore dependency installs and large model/data artifacts
+node_modules/
+my-app/node_modules/
+.git-backup/
+song-recommender-backend/similarity_matrix.pkl
